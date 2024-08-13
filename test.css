@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+}
+
+.div{
+    height: 30vw;
+    width: 30vw;
+    background-color: orangered;
+    border-radius: 50%;
+    filter: blur(15px);
+    animation-name: anime;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    position: absolute;
+}
+.div1{
+    height: 30vw;
+    width: 30vw;
+    background-color: orangered;
+    border-radius: 50%;
+    filter: blur(15px);
+   
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    /* position: absolute; */
+}
+
+@keyframes anime {
+   from{
+    transform: translate(-10%,-10%);
+   }
+   
+   to{
+    transform: translate(10%,10%);
+   }
+}
