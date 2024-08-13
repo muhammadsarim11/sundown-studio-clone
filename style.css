@@ -860,8 +860,14 @@ margin: .5vw 2vw;
     color: white;
 }
 .left-items{
-    display: flex;
-    flex-direction: row;
+display: flex;
+flex-direction: column-reverse;
+align-items: start;
 margin-inline: 3vw;
+}
+
+.fixed-image{
+    height: 170px;
+    width: 170px;
 }
 }
