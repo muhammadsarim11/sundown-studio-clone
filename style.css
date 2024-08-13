@@ -870,4 +870,7 @@ margin-inline: 3vw;
     height: 170px;
     width: 170px;
 }
+.left h4{
+    font-weight: 500;
+}
 }
