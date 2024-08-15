@@ -460,6 +460,11 @@ to{
 border-radius: 10px;
 display: none;
 }
+.fixed-image img{
+    object-fit:cover;
+    object-position:center;
+    
+}
 
 .page4{
     height: 10vh ;
@@ -938,7 +943,11 @@ margin-bottom: 20px;
     font-size: 8vw;
 
 }
-
+.fixed-image img{
+    object-fit:cover;
+    object-position:center;
+    
+}
 
 }
 
